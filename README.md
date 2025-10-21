@@ -1,2 +1,2 @@
 # Travel-Vlog
-HTML/CSS/JavaScript
+HTML/CSS/
