@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <title>DREAMY DESTIANTIONS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="contactbody">
+
+
+  <div class="header">
+     <div class="logo">
+<img id="fotologo" src="images\pngwing.com.png">
+
+</div>
+
+
+    <div class="navbar">
+      <a href="home.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About</a>
+      <a href="contact.html" target="_blank">Contacts</a>
+    </div>
+  </div>
+
+  <div class="pershkrimi">
+    <h1 class="heading"><b> GET IN TOUCH</b> </h1>
+    <h2 class="heading">-Contact form-</h2>
+    <p>Send me your questionns,comments or suggestions!</p>
+     <p>If you'd have a question or comment , you can also contact me using the form below.</p>
+  </div>
+  <br><br>
+
+  <form>
+    <label>Your Name</label> <br>
+    <input id="emri" type="text" for="Your Name" class="inp">
+<br>
+
+   
+
+    <label>Your Email</label><br>
+    <input id="email" type="text" for="Your Email" class="inp" >
+    <br>
+    
+    <label>Your Subject</label><br>
+    <input id="sub" type="text" for="Your Subject" class="inp" >
+    <br>
+    <label>Your Message</label><br>
+    <input id="msg" type="text" for="Your Message"  class="mesazhi">
+    <br><br>
+
+    <p id="alert"></p>
+
+    <button id="butoni" onclick="validate()" type="button"> Submit </button>
+    
+    <script>
+      function validate()
+      {
+    var name=document.getElementById("emri").value;
+   var emaili=document.getElementById("email").value;
+   var subjekti=document.getElementById("sub").value;
+   var mesazhi=document.getElementById("msg").value;
+
+   if(name=="" || emaili=="" || subjekti=="" ||  mesazhi==""){
+  document.getElementById("alert").innerHTML=" *Please fill all fields!";
+
+   
+  }}
+    </script>
+
+  </form>
+
+
+  
+  <footer class="page-footer">
+
+    <div class="container">
+    
+    <div class="row">
+    
+    <div class="col-lg-8 col-md-8 col-sm-12">
+    
+    <h6 class="text-uppercase font-weight-bold">Travel is an investment in yourself !</h6>
+    <p>Travel takes us out of our comfort zones and inspires us to see, taste and try new things.<br>
+      It constantly challenges us, not only to adapt to and explore new surroundings.
+
+    
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-12">
+    
+    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+    
+    <p>1025 Dritan Hoxha, Tirana, Albania
+    
+    <br/>info@dreamydestinations.com
+   <p>+ 355693142532</p>
+    <a href="https://web.whatsapp.com/" class="fa fa-whatsapp" target="_blank"></a> 
+<a href="https://www.facebook.com/arba.lika96/" class="fa fa-facebook" target="_blank"></a> 
+ <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+    
+    </div>
+    
+    <div>
+    
+    <div class="footer-copyright text-center"> <b>© DREAMY DESTIANTIONS</b></div>
+    
+    </footer>
+
+</body>
+
+</html>
